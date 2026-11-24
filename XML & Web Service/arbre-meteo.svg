@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="420" viewBox="0 0 820 420"
+     role="img" aria-labelledby="titre">
+  <title id="titre">Arbre du document XML météorologique</title>
+  <style>
+    text { font-family: Arial, sans-serif; fill: #183044; }
+    .node { fill: #eaf5f8; stroke: #2186a6; stroke-width: 2; }
+    .edge { fill: none; stroke: #526b79; stroke-width: 2; }
+    .label { font-size: 15px; font-weight: bold; }
+    .detail { font-size: 13px; }
+  </style>
+  <text x="410" y="35" text-anchor="middle" font-size="21" font-weight="bold">Arbre XML : relevés météorologiques</text>
+
+  <path class="edge" d="M410 105 V140"/>
+  <path class="edge" d="M410 200 V235 M410 235 H185 V270 M410 235 V270 M410 235 H635 V270"/>
+
+  <rect class="node" x="335" y="55" width="150" height="50" rx="8"/>
+  <text class="label" x="410" y="86" text-anchor="middle">&lt;meteo&gt;</text>
+
+  <rect class="node" x="300" y="140" width="220" height="60" rx="8"/>
+  <text class="label" x="410" y="165" text-anchor="middle">&lt;mesure date="…"&gt;</text>
+  <text class="detail" x="410" y="186" text-anchor="middle">répété pour chaque date</text>
+
+  <rect class="node" x="95" y="270" width="180" height="65" rx="8"/>
+  <text class="label" x="185" y="296" text-anchor="middle">&lt;ville … /&gt;</text>
+  <text class="detail" x="185" y="319" text-anchor="middle">nom="Casa" température="22"</text>
+
+  <rect class="node" x="320" y="270" width="180" height="65" rx="8"/>
+  <text class="label" x="410" y="296" text-anchor="middle">&lt;ville … /&gt;</text>
+  <text class="detail" x="410" y="319" text-anchor="middle">nom="Rabat" température="20"</text>
+
+  <rect class="node" x="545" y="270" width="180" height="65" rx="8"/>
+  <text class="label" x="635" y="296" text-anchor="middle">…</text>
+  <text class="detail" x="635" y="319" text-anchor="middle">autres villes</text>
+
+  <text x="410" y="380" text-anchor="middle" font-size="13">
+    Chaque élément ville est vide et porte les attributs nom et temperature.
+  </text>
+</svg>

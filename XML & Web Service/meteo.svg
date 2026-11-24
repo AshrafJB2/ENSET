@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg"
+         width="820"
+         height="500"
+         viewBox="0 0 820 500"
+         role="img"
+         aria-labelledby="titre description">
+   <svg:title id="titre">Histogramme animé des températures</svg:title>
+   <svg:desc id="description">Comparaison des températures de chaque ville pour chaque date.</svg:desc>
+   <svg:style>
+        text { font-family: Arial, sans-serif; fill: #183044; }
+        .grid { stroke: #d7e2e8; stroke-width: 1; }
+        .axis { stroke: #526b79; stroke-width: 1.5; }
+      </svg:style>
+   <svg:text x="410"
+             y="28"
+             text-anchor="middle"
+             font-size="20"
+             font-weight="bold">
+        Températures par ville (°C)
+      </svg:text>
+   <svg:line class="axis" x1="48" y1="370" x2="790" y2="370"/>
+   <svg:line class="axis" x1="48" y1="70" x2="48" y2="370"/>
+   <svg:line class="grid" x1="48" x2="790" y1="370" y2="370"/>
+   <svg:text x="40" y="374" text-anchor="end" font-size="11">0</svg:text>
+   <svg:line class="grid" x1="48" x2="790" y1="280" y2="280"/>
+   <svg:text x="40" y="284" text-anchor="end" font-size="11">10</svg:text>
+   <svg:line class="grid" x1="48" x2="790" y1="190" y2="190"/>
+   <svg:text x="40" y="194" text-anchor="end" font-size="11">20</svg:text>
+   <svg:line class="grid" x1="48" x2="790" y1="100" y2="100"/>
+   <svg:text x="40" y="104" text-anchor="end" font-size="11">30</svg:text>
+   <svg:rect x="60"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#2186a6">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="172"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="198"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="72" y="167" text-anchor="middle" font-size="10">22</svg:text>
+   <svg:rect x="146"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#2186a6">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="190"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="180"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="158" y="185" text-anchor="middle" font-size="10">20</svg:text>
+   <svg:rect x="232"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#2186a6">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="208"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="162"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="244" y="203" text-anchor="middle" font-size="10">18</svg:text>
+   <svg:rect x="318"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#2186a6">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="199"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="171"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="330" y="194" text-anchor="middle" font-size="10">19</svg:text>
+   <svg:rect x="404"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#2186a6">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="145"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="225"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="416" y="140" text-anchor="middle" font-size="10">25</svg:text>
+   <svg:rect x="490"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#2186a6">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="118"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="252"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="502" y="113" text-anchor="middle" font-size="10">28</svg:text>
+   <svg:rect x="576"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#2186a6">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="109"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="261"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="588" y="104" text-anchor="middle" font-size="10">29</svg:text>
+   <svg:rect x="662"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#2186a6">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="190"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="180"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="674" y="185" text-anchor="middle" font-size="10">20</svg:text>
+   <svg:rect x="90"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#f08a4b">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="181"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="189"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="102" y="176" text-anchor="middle" font-size="10">21</svg:text>
+   <svg:rect x="176"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#f08a4b">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="163"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="207"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="188" y="158" text-anchor="middle" font-size="10">23</svg:text>
+   <svg:rect x="262"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#f08a4b">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="199"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="171"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="274" y="194" text-anchor="middle" font-size="10">19</svg:text>
+   <svg:rect x="348"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#f08a4b">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="190"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="180"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="360" y="185" text-anchor="middle" font-size="10">20</svg:text>
+   <svg:rect x="434"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#f08a4b">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="163"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="207"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="446" y="158" text-anchor="middle" font-size="10">23</svg:text>
+   <svg:rect x="520"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#f08a4b">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="127"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="243"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="532" y="122" text-anchor="middle" font-size="10">27</svg:text>
+   <svg:rect x="606"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#f08a4b">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="145"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="225"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="618" y="140" text-anchor="middle" font-size="10">25</svg:text>
+   <svg:rect x="692"
+             y="370"
+             width="24"
+             height="0"
+             rx="2"
+             fill="#f08a4b">
+      <svg:animate attributeName="y"
+                   from="370"
+                   to="163"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+      <svg:animate attributeName="height"
+                   from="0"
+                   to="207"
+                   dur="1.2s"
+                   begin="0s"
+                   fill="freeze"/>
+   </svg:rect>
+   <svg:text x="704" y="158" text-anchor="middle" font-size="10">23</svg:text>
+   <svg:text x="87" y="390" text-anchor="middle" font-size="10">Casa</svg:text>
+   <svg:text x="173" y="390" text-anchor="middle" font-size="10">Rabat</svg:text>
+   <svg:text x="259" y="390" text-anchor="middle" font-size="10">Fes</svg:text>
+   <svg:text x="345" y="390" text-anchor="middle" font-size="10">Oujda</svg:text>
+   <svg:text x="431" y="390" text-anchor="middle" font-size="10">Tanger</svg:text>
+   <svg:text x="517" y="390" text-anchor="middle" font-size="10">Marrakech</svg:text>
+   <svg:text x="603" y="390" text-anchor="middle" font-size="10">Ouarzazat</svg:text>
+   <svg:text x="689" y="390" text-anchor="middle" font-size="10">Agadir</svg:text>
+   <svg:rect x="540" y="440" width="16" height="16" fill="#2186a6"/>
+   <svg:text x="563" y="453" font-size="12">2006-01-01</svg:text>
+   <svg:rect x="670" y="440" width="16" height="16" fill="#f08a4b"/>
+   <svg:text x="693" y="453" font-size="12">2006-01-02</svg:text>
+</svg:svg>
